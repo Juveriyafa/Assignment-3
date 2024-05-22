@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERFUME</title>
+</head>
+<style>
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        margin-left: 100px;
+    }
+
+    .navbar ul li {
+        font-weight: bold;
+        list-style: none;
+        display: inline;
+        padding: 10px 20px;
+
+    }
+
+    .container {
+        display: flex;
+        padding: 100px;
+        gap: 50px;
+
+
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+
+    .item img {
+        width: 100px;
+    }
+
+    .mainitem img {
+        width: 500px;
+    }
+
+    .content {
+        padding: 50px;
+        margin: 50px;
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+    }
+
+    .itemb {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 12px;
+    }
+
+    .add {
+        width: 100%;
+        padding: 10px 24px;
+        border-radius: 12px;
+        background-color: white;
+        color: black;
+        border: 2px solid rgb(184, 12, 69);
+        font-size: 16px;
+
+    }
+
+    .buy {
+        width: 100%;
+        padding: 10px 24px;
+        border-radius: 12px;
+        background-color: rgb(184, 12, 69);
+
+
+    }
+</style>
+
+<body>
+    <nav class="navbar">
+
+        <!-- <div class="navlinks"> -->
+        <ul class="firstpart">
+            <li>HOME</li>
+            <li>STORE</li>
+            <li>ABOUT US</li>
+            <li>CONTACT US</li>
+        </ul>
+        <ul>
+            <li>ACCOUNT</li>
+            <li>CART</li>
+        </ul>
+        <!-- </div> -->
+    </nav>
+    <hr>
+    <section class="hero">
+        <div class="container">
+            <div class="column">
+                <div class="item"> <img src="perfume.jpg"></div>
+                <div class="item"> <img src="perfume.jpg"></div>
+                <div class="item"> <img src="perfume.jpg"></div>
+                <div class="item"> <img src="perfume.jpg"></div>
+
+            </div>
+            <div class="column">
+                <div class="mainitem"> <img src="perfume.jpg"></div>
+            </div>
+            <!-- </div> -->
+
+            <div class="column">
+                <div class="content">
+                    <h2 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><b>ROSE
+                            PERFUME</b></h2>
+                    <p>Rs.999 <br>(include of all taxes) </p>
+                    <p>Get this for Rs. <b>899</b><br>Buy 2 and get Flat 10% OFF! Code: <b>BUY2</b></p>
+                    <p>Get this for Rs. <b>799</b><br>Buy 5 and get Flat 20% OFF!Code: <b>BUY5</b></p>
+                    <p>Get this for Rs. <b>849</b><br>Buy 2 and get Flat 10% OFF!</p>
+                    <p>Get this for Rs. <b>799</b><br>Buy 2 and get Flat 10% OFF!</p>
+                    <div class="button-container">
+                        <div class=" quantity">
+                            <p>Quantity</p>
+                            <button class="itemb">-</button>
+                            <button class="itemb">1</button>
+                            <button class="itemb">+</button>
+                        </div>
+                        <!-- <div class="button-container"> -->
+
+                        <button class="add">ADD TO CART</button>
+
+                        <button class="buy">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+    </section>
+
+</body>
+
+</html>
